@@ -31,6 +31,7 @@ body {
   color: #444;
   line-height: 1.9;
   background-color: #f3f3f3;
+  overflow-x: hidden;
 }
 
 /* GENERAL ELEMENTS */
@@ -657,9 +658,10 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 100%;
+  width: 110%;
   background-color: white;
   color: #bbb;
   font-size: 1.5rem;
   font-weight: 400;
+  padding-block: 1rem;
 }
